@@ -3,7 +3,7 @@ import React from 'react'
 
 import skyScene from '../assets/3d/sky.glb'
 
-function Sky() {
+const Sky = () => {
     const sky = useGLTF(skyScene)
     return (
         <mesh>
