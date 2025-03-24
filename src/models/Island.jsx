@@ -22,6 +22,8 @@ const Island = ({isRotating, setIsRotating, ...props}) => {
     const rotationSpeed = useRef(0);
     const dampingFactor = 0.95;
 
+    
+
     const { nodes, materials } = useGLTF(islandScene)
     return (
         <a.group ref={islandRef} {...props}>
