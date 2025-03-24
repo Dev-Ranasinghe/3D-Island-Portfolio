@@ -167,7 +167,7 @@ export const projects = [
     },
     {
         iconUrl: arrow2, 
-        theme: 'btn-back-cyan',
+        theme: 'btn-back-green',
         name: '3D Animated Portfolio',
         description: 'Built an interactive 3D portfolio website using Three.js and Next.js. Features an island-themed environment where users can explore and animate elements to showcase my work in an immersive way.',
         link: 'https://dev-interactive-3d-portfolio.vercel.app/', 
